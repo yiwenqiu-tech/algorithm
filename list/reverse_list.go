@@ -1,7 +1,5 @@
 package list
 
-import "google.golang.org/genproto/googleapis/cloud/tasks/v2"
-
 func ReverseList(node *SingleLinkedNode) *SingleLinkedNode {
 	if node == nil {
 		return nil

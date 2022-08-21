@@ -1,7 +1,5 @@
 package list
 
-import "container/heap"
-
 // FindTwoListCommonPart 给定两个有序链表的头指针head1和head2，打印两个链表的公共部分
 func FindTwoListCommonPart(head1 *SingleLinkedNode, head2 *SingleLinkedNode) []int {
 	var res []int
@@ -16,6 +14,5 @@ func FindTwoListCommonPart(head1 *SingleLinkedNode, head2 *SingleLinkedNode) []i
 			head2 = head2.Next
 		}
 	}
-	heap.Init()
 	return res
 }
