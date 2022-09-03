@@ -8,7 +8,7 @@ package list
 //	2.
 //		a.当链表里元素数量为奇数时，当快指针走完时，慢指针停在中间元素
 //      b.当链表里元素数量为偶数时，当快指针走完时，慢指针停在对称线后一个元素
-//  ...
+//  左神快慢指针：https://github.com/algorithmzuo/algorithmbasic2020/blob/master/src/class09/Code01_LinkedListMid.java
 
 func FindNodeByFastSlowPointer1(head1 *SingleLinkedNode) *SingleLinkedNode {
 	var fast = head1
